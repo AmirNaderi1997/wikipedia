@@ -1,0 +1,110 @@
+/* Global styles */
+body {
+    font-family: "Inter", Arial, sans-serif;
+    background: #eef2f7;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* Main container */
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    border: 1px solid #e5e7eb;
+}
+
+/* Title */
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #1f2937;
+}
+
+/* Controls layout */
+.controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/* Inputs */
+input, select {
+    padding: 12px 15px;
+    font-size: 16px;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    flex: 1;
+    transition: 0.2s;
+}
+
+input:focus, select:focus {
+    border-color: #60a5fa;
+    box-shadow: 0 0 5px rgba(96, 165, 250, 0.5);
+    outline: none;
+}
+
+/* Search button */
+button {
+    padding: 12px 18px;
+    font-size: 16px;
+    border: none;
+    background: #2563eb;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+button:hover {
+    background: #1e4fcc;
+}
+
+/* Search results */
+.result-item {
+    background: #f9fafb;
+    padding: 15px;
+    margin-bottom: 12px;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.result-item:hover {
+    background: #f3f4f6;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.06);
+}
+
+/* Article viewer */
+#article {
+    margin-top: 25px;
+    padding: 20px;
+    background: #f8fafc;
+    border-left: 5px solid #2563eb;
+    border-radius: 10px;
+}
+
+/* Pagination */
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.pagination button {
+    background: #4b5563;
+    border-radius: 8px;
+}
+
+.pagination button:hover {
+    background: #374151;
+}
